@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <h2>drap calculator</h2>
+    <label>Enter first number:</label>
+    <input type="number" placeholder="first Number"><br>
+    <label for="action">Select Action:</label>
+    <select name="action" id="action">
+      <option>----</option>
+      <option>+</option>
+      <option>-</option>
+      <option>x</option>
+      <option>/</option>
+    </select><br>
+   <label>Enter Second number:</label>
+    <input type="number" placeholder="second Number"><br>
+    <div>
+           <button class="submit" onclick="calculator();">Calculate</button><br>
+    </div>
+   <p id="Result">Result:</p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
